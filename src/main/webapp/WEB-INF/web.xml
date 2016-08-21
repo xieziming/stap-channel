@@ -11,6 +11,10 @@
     <param-name>contextConfigLocation</param-name>
     <param-value>com.xieziming.stap.channel.config.StapChannelConfiguration</param-value>
   </context-param>
+  <context-param>
+    <param-name>webAppRootKey</param-name>
+    <param-value>stap-channel</param-value>
+  </context-param>
   <listener>
     <listener-class>org.springframework.web.context.ContextLoaderListener</listener-class>
   </listener>
