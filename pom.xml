@@ -11,6 +11,7 @@
         <spring.version>4.2.4.RELEASE</spring.version>
         <jackson.version>2.4.0</jackson.version>
         <junit.version>4.11</junit.version>
+        <stap-base.version>1.0-SNAPSHOT</stap-base.version>
     </properties>
     <build>
         <finalName>stap-channel</finalName>
@@ -128,14 +129,14 @@
             <version>1.1.2</version>
         </dependency>
         <dependency>
-            <groupId>com.xieziming</groupId>
+            <groupId>com.xieziming.stap</groupId>
             <artifactId>stap-core</artifactId>
-            <version>${project.version}</version>
+            <version>${stap-base.version}</version>
         </dependency>
         <dependency>
-            <groupId>com.xieziming</groupId>
+            <groupId>com.xieziming.stap</groupId>
             <artifactId>stap-db</artifactId>
-            <version>${project.version}</version>
+            <version>${stap-base.version}</version>
         </dependency>
     </dependencies>
 </project>
