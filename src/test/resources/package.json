@@ -1,0 +1,360 @@
+{
+  "id": 2,
+  "basicTestCase": {
+    "id": 1,
+    "basicParentTestCase": null,
+    "name": "Blog_Search_Function",
+    "remark": "Check whether the search function is still working",
+    "lastUpdate": "2016-05-08T12:29:30.000+0800"
+  },
+  "basicExecutionPlan": {
+    "id": 1,
+    "name": "Stap_Demo_Plan",
+    "remark": "this is a sample plan",
+    "status": "Opened",
+    "lastUpdate": "2016-05-21T21:34:24.000+0800"
+  },
+  "executionContext": null,
+  "startTime": "2016-05-18T00:00:03.000+0800",
+  "endTime": "2016-05-18T00:01:07.000+0800",
+  "status": "InProcess",
+  "result": "",
+  "remark": "execution remark",
+  "executionStepList": [
+    {
+      "id": 2,
+      "basicExecution": {
+        "id": 2,
+        "basicTestCase": {
+          "id": 1,
+          "basicParentTestCase": null,
+          "name": "Blog_Search_Function",
+          "remark": "Check whether the search function is still working",
+          "lastUpdate": "2016-05-08T12:29:30.000+0800"
+        },
+        "basicExecutionPlan": {
+          "id": 1,
+          "name": "Stap_Demo_Plan",
+          "remark": "this is a sample plan",
+          "status": "Opened",
+          "lastUpdate": "2016-05-21T21:34:24.000+0800"
+        },
+        "executionContext": {
+          "id": 1,
+          "name": "DummyContext",
+          "content": "",
+          "lastUpdate": "2016-05-19T23:32:04.000+0800"
+        },
+        "startTime": "2016-05-18T00:00:03.000+0800",
+        "endTime": "2016-05-18T00:01:07.000+0800",
+        "status": "InProcess",
+        "result": "",
+        "remark": "execution remark"
+      },
+      "testStep": null,
+      "startTime": null,
+      "endTime": null,
+      "status": "",
+      "result": "",
+      "remark": "",
+      "executionStepOutputTextList": [
+        {
+          "id": 1,
+          "basicExecutionStep": {
+            "id": 2,
+            "basicExecution": {
+              "id": 2,
+              "basicTestCase": {
+                "id": 1,
+                "basicParentTestCase": null,
+                "name": "Blog_Search_Function",
+                "remark": "Check whether the search function is still working",
+                "lastUpdate": "2016-05-08T12:29:30.000+0800"
+              },
+              "basicExecutionPlan": {
+                "id": 1,
+                "name": "Stap_Demo_Plan",
+                "remark": "this is a sample plan",
+                "status": "Opened",
+                "lastUpdate": "2016-05-21T21:34:24.000+0800"
+              },
+              "executionContext": {
+                "id": 1,
+                "name": "DummyContext",
+                "content": "",
+                "lastUpdate": "2016-05-19T23:32:04.000+0800"
+              },
+              "startTime": "2016-05-18T00:00:03.000+0800",
+              "endTime": "2016-05-18T00:01:07.000+0800",
+              "status": "InProcess",
+              "result": "",
+              "remark": "execution remark"
+            },
+            "testStep": {
+              "id": 1,
+              "basicTestCase": {
+                "id": 1,
+                "basicParentTestCase": null,
+                "name": "Blog_Search_Function",
+                "remark": "Check whether the search function is still working",
+                "lastUpdate": "2016-05-08T12:29:30.000+0800"
+              },
+              "stepOrder": 1,
+              "testAction": {
+                "id": 1,
+                "name": "Open_Url",
+                "testActionHandler": "com.xieziming.stap.sample.web.handlers.WebPageHandler@openUrl",
+                "remark": "Class WebPageHandler to handle the open operation",
+                "lastUpdate": "2016-05-08T12:34:22.000+0800"
+              },
+              "testStepParameter": "${WEBSITE_TO_BE_TESTED}"
+            },
+            "startTime": null,
+            "endTime": null,
+            "status": "",
+            "result": "",
+            "remark": ""
+          },
+          "type": "",
+          "field": "text_output",
+          "value": "output_msg",
+          "remark": "a remark",
+          "lastUpDate": "2016-05-22T17:51:31.000+0800"
+        },
+        {
+          "id": 2,
+          "basicExecutionStep": {
+            "id": 2,
+            "basicExecution": {
+              "id": 2,
+              "basicTestCase": {
+                "id": 1,
+                "basicParentTestCase": null,
+                "name": "Blog_Search_Function",
+                "remark": "Check whether the search function is still working",
+                "lastUpdate": "2016-05-08T12:29:30.000+0800"
+              },
+              "basicExecutionPlan": {
+                "id": 1,
+                "name": "Stap_Demo_Plan",
+                "remark": "this is a sample plan",
+                "status": "Opened",
+                "lastUpdate": "2016-05-21T21:34:24.000+0800"
+              },
+              "executionContext": {
+                "id": 1,
+                "name": "DummyContext",
+                "content": "",
+                "lastUpdate": "2016-05-19T23:32:04.000+0800"
+              },
+              "startTime": "2016-05-18T00:00:03.000+0800",
+              "endTime": "2016-05-18T00:01:07.000+0800",
+              "status": "InProcess",
+              "result": "",
+              "remark": "execution remark"
+            },
+            "testStep": {
+              "id": 1,
+              "basicTestCase": {
+                "id": 1,
+                "basicParentTestCase": null,
+                "name": "Blog_Search_Function",
+                "remark": "Check whether the search function is still working",
+                "lastUpdate": "2016-05-08T12:29:30.000+0800"
+              },
+              "stepOrder": 1,
+              "testAction": {
+                "id": 1,
+                "name": "Open_Url",
+                "testActionHandler": "com.xieziming.stap.sample.web.handlers.WebPageHandler@openUrl",
+                "remark": "Class WebPageHandler to handle the open operation",
+                "lastUpdate": "2016-05-08T12:34:22.000+0800"
+              },
+              "testStepParameter": "${WEBSITE_TO_BE_TESTED}"
+            },
+            "startTime": null,
+            "endTime": null,
+            "status": "",
+            "result": "",
+            "remark": ""
+          },
+          "type": "EVD",
+          "field": "evd_key",
+          "value": "evd_msg",
+          "remark": "another msg",
+          "lastUpDate": "2016-05-22T17:52:30.000+0800"
+        }
+      ],
+      "executionStepOutputFileList": [],
+      "executionStepLogList": [
+        {
+          "id": 1,
+          "basicExecutionStep": {
+            "id": 2,
+            "basicExecution": {
+              "id": 2,
+              "basicTestCase": {
+                "id": 1,
+                "basicParentTestCase": null,
+                "name": "Blog_Search_Function",
+                "remark": "Check whether the search function is still working",
+                "lastUpdate": "2016-05-08T12:29:30.000+0800"
+              },
+              "basicExecutionPlan": {
+                "id": 1,
+                "name": "Stap_Demo_Plan",
+                "remark": "this is a sample plan",
+                "status": "Opened",
+                "lastUpdate": "2016-05-21T21:34:24.000+0800"
+              },
+              "executionContext": {
+                "id": 1,
+                "name": "DummyContext",
+                "content": "",
+                "lastUpdate": "2016-05-19T23:32:04.000+0800"
+              },
+              "startTime": "2016-05-18T00:00:03.000+0800",
+              "endTime": "2016-05-18T00:01:07.000+0800",
+              "status": "InProcess",
+              "result": "",
+              "remark": "execution remark"
+            },
+            "testStep": {
+              "id": 1,
+              "basicTestCase": {
+                "id": 1,
+                "basicParentTestCase": null,
+                "name": "Blog_Search_Function",
+                "remark": "Check whether the search function is still working",
+                "lastUpdate": "2016-05-08T12:29:30.000+0800"
+              },
+              "stepOrder": 1,
+              "testAction": {
+                "id": 1,
+                "name": "Open_Url",
+                "testActionHandler": "com.xieziming.stap.sample.web.handlers.WebPageHandler@openUrl",
+                "remark": "Class WebPageHandler to handle the open operation",
+                "lastUpdate": "2016-05-08T12:34:22.000+0800"
+              },
+              "testStepParameter": "${WEBSITE_TO_BE_TESTED}"
+            },
+            "startTime": null,
+            "endTime": null,
+            "status": "",
+            "result": "",
+            "remark": ""
+          },
+          "stapLog": {
+            "id": 2,
+            "level": "INFO",
+            "content": "this is a test log",
+            "time": "2016-05-22T03:00:00.000+0800"
+          }
+        },
+        {
+          "id": 2,
+          "basicExecutionStep": {
+            "id": 2,
+            "basicExecution": {
+              "id": 2,
+              "basicTestCase": {
+                "id": 1,
+                "basicParentTestCase": null,
+                "name": "Blog_Search_Function",
+                "remark": "Check whether the search function is still working",
+                "lastUpdate": "2016-05-08T12:29:30.000+0800"
+              },
+              "basicExecutionPlan": {
+                "id": 1,
+                "name": "Stap_Demo_Plan",
+                "remark": "this is a sample plan",
+                "status": "Opened",
+                "lastUpdate": "2016-05-21T21:34:24.000+0800"
+              },
+              "executionContext": {
+                "id": 1,
+                "name": "DummyContext",
+                "content": "",
+                "lastUpdate": "2016-05-19T23:32:04.000+0800"
+              },
+              "startTime": "2016-05-18T00:00:03.000+0800",
+              "endTime": "2016-05-18T00:01:07.000+0800",
+              "status": "InProcess",
+              "result": "",
+              "remark": "execution remark"
+            },
+            "testStep": {
+              "id": 1,
+              "basicTestCase": {
+                "id": 1,
+                "basicParentTestCase": null,
+                "name": "Blog_Search_Function",
+                "remark": "Check whether the search function is still working",
+                "lastUpdate": "2016-05-08T12:29:30.000+0800"
+              },
+              "stepOrder": 1,
+              "testAction": {
+                "id": 1,
+                "name": "Open_Url",
+                "testActionHandler": "com.xieziming.stap.sample.web.handlers.WebPageHandler@openUrl",
+                "remark": "Class WebPageHandler to handle the open operation",
+                "lastUpdate": "2016-05-08T12:34:22.000+0800"
+              },
+              "testStepParameter": "${WEBSITE_TO_BE_TESTED}"
+            },
+            "startTime": null,
+            "endTime": null,
+            "status": "",
+            "result": "",
+            "remark": ""
+          },
+          "stapLog": {
+            "id": 3,
+            "level": "ERROR",
+            "content": "this is a error log",
+            "time": "2016-05-21T00:07:00.000+0800"
+          }
+        }
+      ]
+    }
+  ],
+  "executionLogList": [
+    {
+      "id": 1,
+      "basicExecution": {
+        "id": 2,
+        "basicTestCase": {
+          "id": 1,
+          "basicParentTestCase": null,
+          "name": "Blog_Search_Function",
+          "remark": "Check whether the search function is still working",
+          "lastUpdate": "2016-05-08T12:29:30.000+0800"
+        },
+        "basicExecutionPlan": {
+          "id": 1,
+          "name": "Stap_Demo_Plan",
+          "remark": "this is a sample plan",
+          "status": "Opened",
+          "lastUpdate": "2016-05-21T21:34:24.000+0800"
+        },
+        "executionContext": {
+          "id": 1,
+          "name": "DummyContext",
+          "content": "",
+          "lastUpdate": "2016-05-19T23:32:04.000+0800"
+        },
+        "startTime": "2016-05-18T00:00:03.000+0800",
+        "endTime": "2016-05-18T00:01:07.000+0800",
+        "status": "InProcess",
+        "result": "",
+        "remark": "execution remark"
+      },
+      "stapLog": {
+        "id": 5,
+        "level": "INFO",
+        "content": "this is a execution log",
+        "time": "2016-05-23T00:07:00.000+0800"
+      }
+    }
+  ]
+}
