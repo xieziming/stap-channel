@@ -29,7 +29,7 @@ public class NotificationService {
 
     @RequestMapping(value = "", method = RequestMethod.GET, produces = MediaType.APPLICATION_JSON_VALUE+UTF8)
     @ResponseBody
-    public List<NotificationDto> getNotificationList(@RequestHeader("Stap-User") String userName) {
+    public List<NotificationDto> getNotificationList(@RequestHeader("stap-user") String userName) {
         return notificationDtoDao.findAllByUserName(userName);
     }
 }
